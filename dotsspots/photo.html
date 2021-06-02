@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Dots Spots</title>
+        <link rel="stylesheet" href="photo.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"></head>
+    <body>
+        <!--Everthing navigation-->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="./index.html" id="navbar__logo">
+                    <i class="fas fa-camera-retro"></i>
+                    Dots Spots</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="./index.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="./tech.html" class="navbar__links">LifeStyle</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="./hipcamp.html" class="navbar__links">HipCamp</a>
+                    </li>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html></nav><body>
+<div class="container">
+    <div class="image-container">
+        <img src="./images/pic7.jpg" id="content1" class="active">
+        <img src="./images/pic8.jpg" id="content2">
+        <img src="./images/pic6.jpg" id="content3">
+        <img src="./images/sky.jpg" id="content4">
+        <img src="./images/pic14.jpg" id="content5">
+        <img src="./images/pic2.jpg" id="content6">
+        <img src="./images/pic5.jpg" id="content7">
+    </div>
+    <div class="dot-container">
+        <button onclick = "dot(1)"></button>
+        <button onclick = "dot(2)"></button>
+        <button onclick = "dot(3)"></button>
+        <button onclick = "dot(4)"></button>
+        <button onclick = "dot(5)"></button>
+        <button onclick = "dot(6)"></button>
+        <button onclick = "dot(7)"></button>
+    </div>
+    <button id="prev" onclick="prev()">
+        &lt;
+    </button>
+    <button id="next" onclick="next()">
+        &gt;
+    </button>
+</div>
+<script src="script.js"></script></body></html>
